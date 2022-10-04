@@ -228,11 +228,11 @@ const RarityList = ({
 									value={filter.sortBy}
 									onChange={(e) => changeSort(e.target.value)}
 								>
-									<option className="sortBy-option" value="id">
-										ID
-									</option>
 									<option className="sortBy-option" value="rarity">
 										Rarity
+									</option>
+									<option className="sortBy-option" value="id">
+										ID 
 									</option>
 								</select>
 								<div className="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">

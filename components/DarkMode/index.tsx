@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 const DarkModeToggle = () => {
 	const [mounted, setMounted] = React.useState(false);
 	const { theme, setTheme } = useTheme();
-	setTheme('dark');
+	
 	React.useEffect(() => setMounted(true), []);
 	const handleClick = () => {
 		const nextTheme = theme === "dark" ? "light" : "dark";
