@@ -2,7 +2,7 @@ import * as React from "react";
 import { useTheme } from "next-themes";
 
 const DarkModeToggle = () => {
-	const [mounted, setMounted] = React.useState(false);
+	const [mounted, setMounted] = React.useState(true);
 	const { theme, setTheme } = useTheme();
 	React.useEffect(() => setMounted(true), []);
 	const handleClick = () => {
