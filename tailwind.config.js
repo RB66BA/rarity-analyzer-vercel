@@ -19,50 +19,6 @@ module.exports = {
 			typography: (theme) => ({
 				default: {
 					css: {
-						color: theme("colors.gray.600"),
-						a: {
-							color: theme("colors.blue.600"),
-							"&:hover": {
-								color: theme("colors.blue.700"),
-							},
-							"*": {
-								color: theme("colors.blue.600"),
-							},
-							code: { color: theme("colors.blue.600") },
-						},
-						"strong > a, a > strong": {
-							color: theme("colors.blue.600"),
-						},
-						code: {
-							padding: "3px 5px",
-							borderRadius: 5,
-							background: theme("colors.gray.100"),
-						},
-						h1: {
-							fontSize: theme("fontSize.3xl"),
-							lineHeight: theme("lineHeight.tight"),
-							fontWeight: theme("fontWeight.bold"),
-						},
-						h2: {
-							fontSize: theme("fontSize.xl"),
-							lineHeight: theme("lineHeight.snug"),
-							fontWeight: theme("fontWeight.bold"),
-						},
-						h3: {
-							fontSize: theme("fontSize.lg"),
-							lineHeight: theme("lineHeight.normal"),
-							fontWeight: theme("fontWeight.extrabold"),
-						},
-						"h2,h3,h4": {
-							"scroll-margin-top": spacing[32],
-						},
-						mark: {
-							background: theme("colors.pink.100"),
-						},
-					},
-				},
-				dark: {
-					css: {
 						color: theme("colors.gray.300"),
 						a: {
 							color: theme("colors.blue.400"),
@@ -113,6 +69,50 @@ module.exports = {
 						},
 						mark: {
 							background: theme("colors.yellow.100"),
+						},
+					},
+				},
+				dark: {
+					css: {
+						color: theme("colors.gray.600"),
+						a: {
+							color: theme("colors.blue.600"),
+							"&:hover": {
+								color: theme("colors.blue.700"),
+							},
+							"*": {
+								color: theme("colors.blue.600"),
+							},
+							code: { color: theme("colors.blue.600") },
+						},
+						"strong > a, a > strong": {
+							color: theme("colors.blue.600"),
+						},
+						code: {
+							padding: "3px 5px",
+							borderRadius: 5,
+							background: theme("colors.gray.100"),
+						},
+						h1: {
+							fontSize: theme("fontSize.3xl"),
+							lineHeight: theme("lineHeight.tight"),
+							fontWeight: theme("fontWeight.bold"),
+						},
+						h2: {
+							fontSize: theme("fontSize.xl"),
+							lineHeight: theme("lineHeight.snug"),
+							fontWeight: theme("fontWeight.bold"),
+						},
+						h3: {
+							fontSize: theme("fontSize.lg"),
+							lineHeight: theme("lineHeight.normal"),
+							fontWeight: theme("fontWeight.extrabold"),
+						},
+						"h2,h3,h4": {
+							"scroll-margin-top": spacing[32],
+						},
+						mark: {
+							background: theme("colors.pink.100"),
 						},
 					},
 				},
