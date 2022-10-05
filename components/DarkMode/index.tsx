@@ -8,7 +8,7 @@ const DarkModeToggle = () => {
 	React.useEffect(() => setMounted(true), []);
 	const handleClick = () => {
 		const nextTheme = theme === "dark" ? "light" : "dark";
-		setTheme(nextTheme);
+		setTheme("dark");
 	};
 	return (
 		<div className="flex justify-between items-center">
