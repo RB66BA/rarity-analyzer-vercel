@@ -37,16 +37,7 @@ const Token = ({ token, traits, meta, isPage, close }: any) => {
                 {/* <h2 className="uppercase font-semibold text-xs text-gray-700 dark:text-gray-200">
 									Rarity Rank #{token.rank}
 								</h2> */}
-                <img
-                  src={getTokenImageLink(token.image)}
-                  alt={token.name}
-                  style={{
-                    minHeight: '340px',
-                    minWidth: '340px',
-                    width: '100%'
-                  }}
-                  className="rounded-lg bg-black border-gray-800 dark:border-gray-800 border"
-                />
+                
               </div>
             </div>
             <div className="overflow-hidden md:col-span-2 rounded-lg">
