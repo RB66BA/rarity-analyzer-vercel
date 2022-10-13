@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes";
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
-		<ThemeProvider defaultTheme = 'dark' attribute="class">
+		<ThemeProvider defaultTheme = 'blue' attribute="class">
 			<>
 				<Header />
 				<Component {...pageProps} />
